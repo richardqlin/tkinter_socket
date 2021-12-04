@@ -38,7 +38,7 @@ recp.start()
 send = Button(root,text = 'Send', command = send_data)
 send.pack(side =BOTTOM)
 entry = Entry(root)
-entry.pack(side =BOTTOM)
+entry.pack(side =BOTTOM, fill=BOTH)
 root.mainloop()
 
 
